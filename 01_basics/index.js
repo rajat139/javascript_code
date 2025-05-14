@@ -32,3 +32,7 @@ console.log(3
 
 console.log("Hello")
 
+let name = "Abhinabh"
+let age = 18
+let isLoggedIn = true
+
