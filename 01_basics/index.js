@@ -25,6 +25,7 @@ accountCity = "Bengaluru"
 
     // ******** datatypes   *********
 
+
 "use strict";   // treat all js code as newer version
 // alert(3 + 3)    // we are using nodejs not browser
 
@@ -51,6 +52,45 @@ let isLoggedIn = true
 // console.log(typeof age);
 // console.log(typeof undefined);
 // console.log(typeof null);
+
+
+//  ******** Conversion Operation    *********
+
+
+let score = null
+// let score = "33"
+
+// console.log(typeof score);
+// console.log(typeof(score))
+
+let valueInNumber = Number(score)
+// console.log(typeof(valueInNumber))
+// console.log(valueInNumber);
+
+// "33" => 33
+// "333abc" => NaN
+// true => 1; false => 0
+
+let isLoggedin = ""
+
+let booleanisLoggedin = Boolean(isLoggedin)
+// console.log(booleanisLoggedin);
+
+// 1 => true; 0 => false
+//  "" => false
+//  "abhinabh" => true
+
+ let someNumber = 33
+ let stringNumber = String(someNumber)
+ console.log(stringNumber);
+ 
+
+
+
+
+
+
+
 
 
 
