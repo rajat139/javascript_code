@@ -34,7 +34,7 @@ accountCity = "Bengaluru"
 
 // console.log("Hello")
 
-let name = "Abhinabh"
+let name = "Abhinav"
 let age = 18
 let isLoggedIn = true
 
@@ -48,7 +48,7 @@ let isLoggedIn = true
 
 // object
 
-// console.log(typeof "hitesh");
+// console.log(typeof "Abhinav");
 // console.log(typeof age);
 // console.log(typeof undefined);
 // console.log(typeof null);
@@ -78,11 +78,52 @@ let booleanisLoggedin = Boolean(isLoggedin)
 
 // 1 => true; 0 => false
 //  "" => false
-//  "abhinabh" => true
+//  "Abhinav" => true
 
- let someNumber = 33
- let stringNumber = String(someNumber)
- console.log(stringNumber);
+//  let someNumber = 33
+//  let stringNumber = String(someNumber)
+//  console.log(stringNumber);
+
+//  *********** Operations ************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**3)
+// console.log(2/2)
+// console.log(2%2)
+
+let str1 = "Hello"
+let str2 = " Abhinav"
+let str3 = str1 + str2
+// console.log(str3)
+
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+// console.log((1 + 2) * 5 % 3)
+
+// console.log(+true)
+// console.log(+"")
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+
+// let gameCounter = 100  
+// ++gameCounter;           // prefix nad postfix
+// console.log(gameCounter)
+
+
+
+
+
+
  
 
 
