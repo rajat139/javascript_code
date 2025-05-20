@@ -56,13 +56,37 @@ const user = [
 
 user[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // search key is present or not
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // search key is present or not
 
+const course = {
+    coursename : "java script",
+    price : "999",
+    courseInstructor : "Abhinav"
+}
 
+// course.courseInstructor
+// const {courseInstructor} = course
+const {courseInstructor : instructor} = course
+console.log(instructor);
+
+// const navbar = ({company}) => {}     // reactjs
+// navbar(company = "Abhinav")          // reactjs
+
+// {
+//     "name" : "Abhinav",
+//     "coursename" : "javascript",
+//     "price" : "999"
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
 
 
