@@ -1,0 +1,20 @@
+// one.html (dom)
+
+window
+    document
+        html
+            head
+                title
+                    text node
+                meta
+                    atteribute
+                meta    
+                    atteribute
+            body
+                div - atteribute
+                    h1 
+                        text node
+                        atteribute
+                    p
+                        text node
+
